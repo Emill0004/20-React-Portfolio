@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Header() {
     return (
-        <div className="header">
-            <h1>Header</h1>
-        </div>
+        <h1 className="container-fluid header">Eric Miller</h1>
     );
 }
 

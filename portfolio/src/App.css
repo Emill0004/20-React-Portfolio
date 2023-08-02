@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --licorice: #220C10;
   --feldgrau: #506C64;
   --ashGrey: #BAC7BE;
@@ -6,41 +6,57 @@
 
 * {
   background-color: var(--feldgrau);
+  color: var(--ashGrey);
 }
+
+/* .content {
+  color: var(--ashGrey);
+  background-color: var(--ashGrey);
+}*/
+
+.nav {
+  float: right;
+}
+
+
 
 .header {
-
-}
-
-div.header, div.header > * {
   background-color: var(--licorice);
-  color: var(--ashGrey);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.todos {
-  position: absolute;
-  top: 20%;
-  right: 0;
-  left: 0;
+.nav-link {
+  color: var(--feldgrau);
 }
 
-div.todos, div.todos > * {
-  background-color: var(--licorice);
-  color: var(--ashGrey);
-}
-
-.todoText {
-  background-color: var(--licorice);
-}
+/* div.header, div.header > * {
+} */
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 div.footer, div.footer > * {
   background-color: var(--licorice);
-  color: var(--ashGrey);
-} */
+}
+
+.pfp {
+  float: left;
+  max-width: 13%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.appImg {
+  max-width: auto;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  max-height: 200px;
+}
+
+.github {
+  max-width: 50px;
+  max-height: auto;
+}
