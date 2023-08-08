@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3562b73.css",
+    "main.js": "/static/js/main.a880b1c9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fiscal_funhouse.PNG": "/static/media/fiscal_funhouse.949ed56d933fa1e6868b.PNG",
+    "static/media/pfp.jpg": "/static/media/pfp.9a3ceb16f180b74bf48b.jpg",
+    "static/media/main_course.png": "/static/media/main_course.8e2915a9b730b3d23c0a.png",
+    "static/media/work_day_scheduler.PNG": "/static/media/work_day_scheduler.63dc779675a305afee2b.PNG",
+    "static/media/code_quiz.PNG": "/static/media/code_quiz.9829b7834cf5b01efdf1.PNG",
+    "static/media/password_generator.PNG": "/static/media/password_generator.9e55b5ba5206e31a8800.PNG",
+    "static/media/note_taker.PNG": "/static/media/note_taker.b7d341e95b9f736c86c6.PNG",
+    "index.html": "/index.html",
+    "main.e3562b73.css.map": "/static/css/main.e3562b73.css.map",
+    "main.a880b1c9.js.map": "/static/js/main.a880b1c9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3562b73.css",
+    "static/js/main.a880b1c9.js"
+  ]
+}
