@@ -15,29 +15,29 @@ function Portfolio() {
                 <Row style={{paddingBottom: '3vh', paddingTop: '2.5vh'}}>
                     <Col xs={4}>
                         <a href="https://ericklea.github.io/main-course-home-page-project/"><img style={{height: '35vh'}} src={main_course} alt="Main Course Project"/></a>
-                        <a href="https://github.com/ericklea/main-course-home-page-project"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/ericklea/main-course-home-page-project"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
                         <a href="https://emill0004.github.io/05-Work-Day-Scheduler/"><img style={{height: '35vh'}} src={work_day_scheduler} alt="Work Day Scheduler"/></a>
-                        <a href="https://github.com/Emill0004/05-Work-Day-Scheduler"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/Emill0004/05-Work-Day-Scheduler"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
                         <a href="https://emill0004.github.io/03-JavaScript-Password-Generator/"><img style={{height: '35vh'}} src={password_generator} alt="Password Generator"/></a>
-                        <a href="https://github.com/Emill0004/03-JavaScript-Password-Generator"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/Emill0004/03-JavaScript-Password-Generator"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={4}>
                         <a href="https://fiscal-funhouse.herokuapp.com/login"><img style={{height: '35vh'}} src={fiscal_funhouse} alt="Fiscal Funhouse"/></a>
-                        <a href="https://github.com/dannyl2131/Fiscal_Funhouse"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/dannyl2131/Fiscal_Funhouse"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
                         <a href="https://emill0004.github.io/04-Web-APIs-Code-Game/"><img style={{height: '35vh'}} src={code_quiz} alt="Code Quiz"/></a>
-                        <a href="https://github.com/Emill0004/04-Web-APIs-Code-Game"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/Emill0004/04-Web-APIs-Code-Game"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
                         <a href="https://agile-castle-87281-8de3b48131e7.herokuapp.com/"><img style={{height: '35vh'}} src={note_taker} alt="Note Taker"/></a>
-                        <a href="https://github.com/Emill0004/11-Note-Taker"><img style={{height: '7vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://github.com/Emill0004/11-Note-Taker"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                 </Row>
             </Col>
