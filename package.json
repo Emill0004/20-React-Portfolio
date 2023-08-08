@@ -1,0 +1,8 @@
+
+{
+  "scripts": {
+    "start": "cd ./portfolio/ && npm start"
+  },
+  "dependencies": {
+  }
+}

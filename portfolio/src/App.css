@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+/* :root {
+  --licorice: #220C10;
+  --feldgrau: #506C64;
+  --ashGrey: #BAC7BE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  background-color: var(--feldgrau);
+  color: var(--ashGrey);
+} */
+
+/* .content {
+  color: var(--ashGrey);
+  background-color: var(--ashGrey);
+}*/
+
+/* .nav {
+  float: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.header {
+  background-color: var(--licorice);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+  color: var(--feldgrau);
+} */
+
+/* div.header, div.header > * {
+} */
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+div.footer, div.footer > * {
+  background-color: var(--licorice);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pfp {
+  float: left;
+  max-width: 13%;
+  height: auto;
+  margin-right: 1%;
 }
+
+.appImg {
+  max-width: 20%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  max-height: auto;
+}
+
+.github {
+  max-width: 3%;
+  max-height: auto;
+} */
