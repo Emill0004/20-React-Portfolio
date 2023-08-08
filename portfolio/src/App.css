@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --licorice: #220C10;
   --feldgrau: #506C64;
   --ashGrey: #BAC7BE;
@@ -7,14 +7,14 @@
 * {
   background-color: var(--feldgrau);
   color: var(--ashGrey);
-}
+} */
 
 /* .content {
   color: var(--ashGrey);
   background-color: var(--ashGrey);
 }*/
 
-.nav {
+/* .nav {
   float: right;
 }
 
@@ -28,12 +28,12 @@
 
 .nav-link {
   color: var(--feldgrau);
-}
+} */
 
 /* div.header, div.header > * {
 } */
 
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
 }
@@ -50,13 +50,13 @@ div.footer, div.footer > * {
 }
 
 .appImg {
-  max-width: auto;
+  max-width: 20%;
   margin-right: 2%;
   margin-bottom: 2%;
-  max-height: 200px;
+  max-height: auto;
 }
 
 .github {
-  max-width: 50px;
+  max-width: 3%;
   max-height: auto;
-}
+} */

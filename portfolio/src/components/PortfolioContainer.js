@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -14,7 +14,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'AboutMe') {
       return (
         <div>
-            <Header />
             <AboutMe />
             <Footer />
         </div>
@@ -23,7 +22,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return (
         <div>
-            <Header />
             <Contact />
             <Footer />
         </div>
@@ -32,7 +30,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return (
         <div>
-            <Header />
             <Portfolio />
             <Footer />
         </div>
@@ -41,7 +38,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
         return (
           <div>
-              <Header />
+
               <Resume />
               <Footer />
           </div>
@@ -52,9 +49,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <Container fluid style={{position: 'relative', background: '#506C64'}}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-    </div>
+    </Container>
   );
 }

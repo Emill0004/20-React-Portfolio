@@ -1,45 +1,58 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs header">
-      <li className="nav-item header">
-        <a
-          href="#aboutme"
-          onClick={() => handlePageChange('AboutMe')}
-          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link header'}
-        >
-          About Me
-        </a>
-      </li>
-      <li className="nav-item header">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link header'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item header">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link header'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item header">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link header'}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+    <Container fluid style={{background: '#220C10', height: '10vh', position: 'relative'}}>
+      <Row>
+        <Col xs={2}>
+          <h1 style={{color: '#BAC7BE', position: 'absolute', bottom: '0'}}>Eric Miller</h1>
+        </Col>
+        <Col xs={7}>
+        </Col>
+        <Col xs={3}>
+          <Row>
+            <Col xs={3}>
+                <a
+                  style={{color: '#BAC7BE', fontSize: '2.5vh',position: 'absolute', bottom: '0', paddingBottom: '1vh'}}
+                  href="#aboutme"
+                  onClick={() => handlePageChange('AboutMe')}
+                >
+                  AboutMe
+                </a>
+              </Col>
+              <Col xs={3}>
+                <a
+                  style={{color: '#BAC7BE', fontSize: '2.5vh',position: 'absolute', bottom: '0', paddingBottom: '1vh'}}
+                  href="#portfolio"
+                  onClick={() => handlePageChange('Portfolio')}
+                >
+                  Portfolio
+                </a>
+              </Col>
+              <Col xs={3}>
+                <a
+                  style={{color: '#BAC7BE', fontSize: '2.5vh',position: 'absolute', bottom: '0', paddingBottom: '1vh'}}
+                  href="#contact"
+                  onClick={() => handlePageChange('Contact')}
+                >
+                  Contact
+                </a>
+              </Col>
+              <Col xs={1}>
+                <a
+                  style={{color: '#BAC7BE', fontSize: '2.5vh',position: 'absolute', bottom: '0', paddingBottom: '1vh'}}
+                  href="#resume"
+                  onClick={() => handlePageChange('Resume')}
+                >
+                  Resume
+                </a>
+              </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    
   );
 }
 
