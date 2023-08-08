@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <Container fluid style={{background: '#220C10', height: '10vh', position: 'relative'}}>
       <Row>
         <Col xs={2}>
-          <h1 style={{color: '#BAC7BE', position: 'absolute', bottom: '0'}}>Eric Miller</h1>
+          <h1 style={{position: 'absolute', bottom: '0', fontSize: '5vh'}}>Eric Miller</h1>
         </Col>
         <Col xs={7}>
         </Col>

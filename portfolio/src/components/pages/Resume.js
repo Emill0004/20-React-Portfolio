@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Resume() {
     return (
-        <div>
-            <h1>RESUME</h1>
-        </div>
+        <Container fluid style={{height: '88vh'}}>
+            
+        </Container>
         
     )
 }

@@ -49,7 +49,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <Container fluid style={{position: 'relative', background: '#506C64'}}>
+    <Container fluid style={{position: 'relative', background: '#506C64', color: '#BAC7BE'}}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </Container>

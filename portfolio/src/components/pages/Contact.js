@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Contact() {
     return (
-        <div>
-            <h1>CONTACT</h1>
-        </div>
+        <Container fluid style={{height: '88vh'}}>
+            
+        </Container>
         
     )
 }
