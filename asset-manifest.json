@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.e3562b73.css",
-    "main.js": "/20-React-Portfolio/static/js/main.e6ee053a.js",
+    "main.js": "/20-React-Portfolio/static/js/main.6fe181f9.js",
     "static/js/787.1ed0c42c.chunk.js": "/20-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fiscal_funhouse.PNG": "/20-React-Portfolio/static/media/fiscal_funhouse.949ed56d933fa1e6868b.PNG",
     "static/media/pfp.jpg": "/20-React-Portfolio/static/media/pfp.9a3ceb16f180b74bf48b.jpg",
     "static/media/main_course.png": "/20-React-Portfolio/static/media/main_course.8e2915a9b730b3d23c0a.png",
+    "static/media/costify.PNG": "/20-React-Portfolio/static/media/costify.a410ff39e0c944557aa3.PNG",
     "static/media/work_day_scheduler.PNG": "/20-React-Portfolio/static/media/work_day_scheduler.63dc779675a305afee2b.PNG",
     "static/media/code_quiz.PNG": "/20-React-Portfolio/static/media/code_quiz.9829b7834cf5b01efdf1.PNG",
     "static/media/password_generator.PNG": "/20-React-Portfolio/static/media/password_generator.9e55b5ba5206e31a8800.PNG",
     "static/media/note_taker.PNG": "/20-React-Portfolio/static/media/note_taker.b7d341e95b9f736c86c6.PNG",
     "index.html": "/20-React-Portfolio/index.html",
     "main.e3562b73.css.map": "/20-React-Portfolio/static/css/main.e3562b73.css.map",
-    "main.e6ee053a.js.map": "/20-React-Portfolio/static/js/main.e6ee053a.js.map",
+    "main.6fe181f9.js.map": "/20-React-Portfolio/static/js/main.6fe181f9.js.map",
     "787.1ed0c42c.chunk.js.map": "/20-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3562b73.css",
-    "static/js/main.e6ee053a.js"
+    "static/js/main.6fe181f9.js"
   ]
 }
