@@ -6,6 +6,7 @@ import fiscal_funhouse from '../../assets/fiscal_funhouse.PNG';
 import code_quiz from '../../assets/code_quiz.PNG';
 import note_taker from '../../assets/note_taker.PNG';
 import git_hub from '../../assets/github-mark-white.png';
+import costify from '../../assets/costify.PNG';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Portfolio() {
@@ -18,8 +19,8 @@ function Portfolio() {
                         <a href="https://github.com/ericklea/main-course-home-page-project"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
-                        <a href="https://emill0004.github.io/05-Work-Day-Scheduler/"><img style={{height: '35vh'}} src={work_day_scheduler} alt="Work Day Scheduler"/></a>
-                        <a href="https://github.com/Emill0004/05-Work-Day-Scheduler"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
+                        <a href="https://costify2-1d98576949ea.herokuapp.com/"><img style={{height: '35vh'}} src={costify} alt="Costify 2.0"/></a>
+                        <a href="https://github.com/KeadenM/Costify2.0"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
                         <a href="https://emill0004.github.io/03-JavaScript-Password-Generator/"><img style={{height: '35vh'}} src={password_generator} alt="Password Generator"/></a>
