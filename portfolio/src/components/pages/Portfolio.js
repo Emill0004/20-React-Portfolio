@@ -19,7 +19,7 @@ function Portfolio() {
                         <a href="https://github.com/ericklea/main-course-home-page-project"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>
-                        <a href="https://costify2-1d98576949ea.herokuapp.com/"><img style={{height: '35vh'}} src={costify} alt="Costify 2.0"/></a>
+                        <a href="https://warm-river-76374-530a5c9b64cc.herokuapp.com/"><img style={{height: '35vh'}} src={costify} alt="Costify 2.0"/></a>
                         <a href="https://github.com/KeadenM/Costify2.0"><img style={{height: '7vh', paddingLeft: '3vh'}} src={git_hub} alt="Github Link"/></a>
                     </Col>
                     <Col xs={4}>

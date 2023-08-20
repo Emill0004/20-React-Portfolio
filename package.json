@@ -1,8 +1,11 @@
 {
   "homepage": "https://emill0004.github.io/20-React-Portfolio/",
   "scripts": {
-    "start": "cd ./portfolio/ && npm start"
+    "start": "cd ./portfolio/ && npm start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
