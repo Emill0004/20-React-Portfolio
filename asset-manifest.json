@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.e3562b73.css",
-    "main.js": "/20-React-Portfolio/static/js/main.6fe181f9.js",
+    "main.js": "/20-React-Portfolio/static/js/main.eb510a8c.js",
     "static/js/787.1ed0c42c.chunk.js": "/20-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fiscal_funhouse.PNG": "/20-React-Portfolio/static/media/fiscal_funhouse.949ed56d933fa1e6868b.PNG",
     "static/media/pfp.jpg": "/20-React-Portfolio/static/media/pfp.9a3ceb16f180b74bf48b.jpg",
@@ -13,11 +13,11 @@
     "static/media/note_taker.PNG": "/20-React-Portfolio/static/media/note_taker.b7d341e95b9f736c86c6.PNG",
     "index.html": "/20-React-Portfolio/index.html",
     "main.e3562b73.css.map": "/20-React-Portfolio/static/css/main.e3562b73.css.map",
-    "main.6fe181f9.js.map": "/20-React-Portfolio/static/js/main.6fe181f9.js.map",
+    "main.eb510a8c.js.map": "/20-React-Portfolio/static/js/main.eb510a8c.js.map",
     "787.1ed0c42c.chunk.js.map": "/20-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3562b73.css",
-    "static/js/main.6fe181f9.js"
+    "static/js/main.eb510a8c.js"
   ]
 }
